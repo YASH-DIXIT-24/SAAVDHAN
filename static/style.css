@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    top:40%;
+    height:100%;
+    width:100%;
+    background-image: url("backy.jpg");
+    background-size: cover;
+    
+}
+.main-web-layout{
+
+    top:60%;
+    height:80%;
+    width:80%;
+    margin:3rem auto;
+    background: linear-gradient(45 deg,#0328dd,#16d3ef);
+    background-image: url("home.jpg");
+    background-size: cover;
+    box-shadow:0 0 30px rgba(0,0,0,0.603);
+    border-radius: 1.5rem;
+}
+.nav ul{
+    margin-top:2rem;
+    display:flex;
+    float:left;
+    justify-content:space-around;
+}
+.nav ul li{
+font-size: 1.5rem;
+color:#e5e5e5;
+margin-left:4rem;
+padding:8px 12px;
+border-radius:5px;
+list-style:none;
+text-transform:capitilize;
+cursor:pointer;
+}
+#active,.nav ul li:hover
+{
+    background:#fcbb01;
+    color:darkblue;
+}
+.logo{
+    float:right;
+    margin:2.5rem 4rem;
+    color:#e5e5e5;
+    pointer-events:none;
+}
+
+.image-preview{
+    height:25rem;
+    width:30rem;
+    margin-left:5rem;
+}
+
+.image-preview img{
+    height: 100%;
+    width: 100%;
+}
+
+#main-description{
+    height:15rem;
+    width:25rem;
+    background:transparent;
+    margin:-15rem 0 0 33rem;
+}
+
+#main-description h1{
+    top:10%;
+    left:40%;
+    position: fixed;
+    text-transform:uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+#main-description button{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 10px;
+    border:4px solid transparent;
+    font-size: 1.5 rem;
+    text-transform: uppercase;
+    margin: 2rem 0 0 5rem;
+    background: #16d3ef;
+    color:#fcbb01;
+    cursor:pointer;
+    transition:0,2s;
+}
+button:hover{
+    box-shadow:5px 5px 5px #0285dd;
+    border: 4px solid #fcbb01 !important;
+}
+.social-media-icons{
+    float:right;
+    margin:4rem;
+}
+.social-media-icons i{
+    margin-right:1rem;
+    background: #0aa0e4;
+    padding: 8px;
+    border-radius: 5px;
+}
